@@ -24,6 +24,10 @@ a:hover {
   color: #237d13;
 }
 
+.nav {
+  text-align: right;
+}
+
 .nav a:hover {
   color: #237d13;
 }
