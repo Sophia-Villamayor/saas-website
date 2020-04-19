@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -57,7 +57,7 @@ a:hover {
   border-color: #237d13;
   background-color: #237d13;
   color: #fff;
-  transform: translateY(-0.25rem);
+  transform: translateY(-.25rem);
 }
 
 section,
@@ -71,6 +71,12 @@ span {
 
 footer {
   background-color: #000;
+  color: #fff;
+}
+
+.btn-button {
+  border-color: #237d13;
+  background-color: #237d13;
   color: #fff;
 }
 

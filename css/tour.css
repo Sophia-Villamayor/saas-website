@@ -32,13 +32,37 @@ a:hover {
   color: #237d13;
 }
 
-.btn {
-  border-color: #237d13;
-  background-color: #237d13;
-  color: #fff;
+table {
+  min-width: 50em;
+}
+
+.yes {
+  color: #237d13;
+}
+
+.no {
+  color: #e61d12;
+}
+
+.dollar,
+.points {
+  width: 26%;
+}
+
+.grey {
+  background-color: #f3f3f3;
 }
 
 footer {
   background-color: #000;
   color: #fff;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
 }
