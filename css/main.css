@@ -53,16 +53,39 @@ a:hover {
   transform: translateY(-3.5rem);
 }
 
-.btn-small {
-  border-color: #237d13;
-  background-color: #237d13;
-  color: #fff;
+.banner-button {
   transform: translateY(-.25rem);
 }
 
 .btn {
   border-color: #237d13;
   background-color: #237d13;
+  color: #fff;
+}
+
+table {
+  min-width: 50em;
+}
+
+.yes {
+  color: #237d13;
+}
+
+.no {
+  color: #e61d12;
+}
+
+.dollar,
+.points {
+  width: 26%;
+}
+
+.grey {
+  background-color: #f3f3f3;
+}
+
+footer {
+  background-color: #000;
   color: #fff;
 }
 
@@ -108,7 +131,7 @@ footer {
     width: 60%;
   }
 
-  .btn-small {
+  .banner-button {
     position: absolute;
     transform: translateY(-3rem);
   }
@@ -137,7 +160,7 @@ footer {
     width: 60%;
   }
 
-  .btn-small {
+  .banner-button {
     position: absolute;
     transform: translateY(-4rem);
   }
@@ -164,13 +187,17 @@ footer {
     width: 60%;
   }
 
-  .btn-small {
+  .banner-button {
     position: absolute;
     transform: translateY(-8rem);
   }
 
   .list {
     width: 60%;
+  }
+
+  .table-wrapper {
+    overflow: visible;
   }
 
 }
@@ -189,7 +216,7 @@ footer {
     width: 60%;
   }
 
-  .btn-small {
+  .banner-buttom {
     position: absolute;
     transform: translateY(-10rem);
   }
