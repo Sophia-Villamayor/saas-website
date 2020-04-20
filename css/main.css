@@ -2,10 +2,6 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-header {
-  background-color: #000;
-}
-
 li {
   list-style: none;
   display: inline-block;
@@ -18,6 +14,10 @@ a {
 
 a:hover {
   color: #fff;
+}
+
+.masthead {
+  background-color: #000;
 }
 
 .current {
