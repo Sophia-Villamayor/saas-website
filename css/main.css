@@ -36,6 +36,10 @@ a:hover {
   color: #237d13;
 }
 
+.outline-color {
+  color: #fc03ec;
+}
+
 .relative {
   position: relative;
 }
