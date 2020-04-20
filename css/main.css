@@ -28,6 +28,10 @@ a:hover {
   text-align: right;
 }
 
+.nav a:hover .nav a:focus {
+  outline: 3px solid #000;
+}
+
 .nav a:hover {
   color: #237d13;
 }
@@ -123,7 +127,6 @@ span {
 .zara {
   width: 40%;
 }
-
 
 @media only screen and (min-width: 25em) {
 
@@ -243,7 +246,6 @@ span {
     transform: translateY(-27rem);
     width: 60%;
   }
-
 
   .banner-buttom {
     position: absolute;
