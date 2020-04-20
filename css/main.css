@@ -102,6 +102,15 @@ span {
   width: 100%;
 }
 
+.skip-links {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
 .benefit-content {
   background-color: #e8e8e8;
 }
