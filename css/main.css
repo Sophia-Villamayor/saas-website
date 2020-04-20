@@ -71,8 +71,18 @@ a:hover {
   color: #fff;
 }
 
-span {
-  font-weight: bold;
+.btn-ghost {
+  color: #000;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #237d13;
+  background-color: #fff;
+}
+
+.btn-ghost:hover {
+  color: #fff;
+  background-color: #237d13;
+  border-color: #fff;
 }
 
 table {
