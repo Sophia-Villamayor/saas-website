@@ -12,7 +12,12 @@
 </head>
 <body>
 
-  <header class="grid">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header class="grid masthead" role="banner">
     <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
       <i class="icon i-64 gutter-1-4 pad-t-1-2">
         <img src="images/logo.svg" alt="">
@@ -27,42 +32,48 @@
     </nav>
   </header>
 
-  <main>
+  <main role="main" id="main" tableindex="0">
 
     <section class="intro unit xs-1 s-1 m-1 l-1 xl-1">
       <div class="embed embed-3by1 relative push-2">
         <img class="embed-item item" src="images/banner.png" alt="">
       </div>
-      <div class="intro-content">
+      <div class="intro-content gutter-1-2">
         <div class="gutter-1-4">
-          <h1 class="push-1 easy">There's more to life with EasyPay.</h1>
-          <p class="push-1-2 credit">Link any debit or credit card and shop online at ease.</p>
+          <h1 class="exa push-1 easy">There's more to life with EasyPay.</h1>
+          <p class="giga push-1-2 credit">Link any debit or credit card and shop online at ease.</p>
           <a class="button btn banner-button push-2 milli" href="sign-up.html">Let's Get Started!</a>
         </div>
       </div>
     </section>
 
-    <section class="unit xs-1 s-1 m-1 l-1 xl-1 benefit-content">
-      <div class="gutter-1-4">
-        <h2 class="push-0 pad-t-1-2">Exclusive benefits with Premium</h2>
-      </div>
-      <div>
-        <ul class="list-group gutter-1-2">
-          <li class="list pad-t-2">Send or receive E Transfers with anyone you want</li>
-          <li class="list pad-t-2">Have access to free monthly expense reports</li>
-          <li class="list pad-t-2">Have a choice to receive 1$ of cash back from every purchase you make</li>
-          <li class="list pad-t-2 pad-b-1-2"><span class="bold">OR</span> have a choice to earn a point from each dollar you spend, and receive a $15 gift card after collecting 500 points</li>
-        </ul>
+    <section class="unit xs-1 s-1 m-1 l-1 xl-1 benefit-content push-1-2">
+      <div class="gutter-1-4 text-center">
+        <h2 class="peta push-0 pad-t-1-2">Get to know us</h2>
+        <p class="mega description wrapper gutter-2 pad-b-1-2">When signing up with EasyPay, shop effortlessly whether it's from home, or leave your wallet at home and use your saved cards to make transactions</p>
       </div>
     </section>
 
-    <section class="unit xs-1 s-1 m-1 l-1 xl-1 shop">
-      <div class="gutter-1-4">
-        <h3>Shop at your favourite stores with EasyPay!</h3>
-        <p>EasyPay allows you to shop at the stores that you love.</p>
+    <section class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-4">
+      <div class="gutter-1-4 text-center">
+        <h3 class="tera">Shop at your favourite stores with EasyPay!</h3>
+        <p class="kilo pad-b-2"><em>EasyPay allows you to shop at the stores that you love.</em></p>
       </div>
-      <div class="embed embed-3by1">
-        <img class="img-flex embed-item" src="images/shopping.jpg" alt="">
+      <div class="grid">
+        <div class="gutter-2 text-center">
+          <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 push-2">
+            <img class="img-flex adidas" src="images/adidas.png" alt="">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 push-2">
+            <img class="img-flex zara" src="images/zara.png">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 push-1-2">
+            <img class="img-flex hm" src="images/hm.png" alt="">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 push-2">
+            <img class="img-flex simons" src="images/simons.png" alt="">
+          </div>
+        </div>
       </div>
     </section>
 
