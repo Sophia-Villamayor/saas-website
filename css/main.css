@@ -71,6 +71,10 @@ a:hover {
   color: #fff;
 }
 
+span {
+  font-weight: bold;
+}
+
 table {
   min-width: 50em;
 }
