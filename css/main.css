@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 header {
@@ -98,43 +98,34 @@ span {
   background-color: #e8e8e8;
 }
 
-footer {
-  background-color: #000;
-  color: #fff;
-}
-
 .btn-button {
   border-color: #237d13;
   background-color: #237d13;
   color: #fff;
 }
 
-.img-flex {
+.flex {
   display: inline-block;
 }
 
-  .adidas {
-    width: 55%;
-  }
+.adidas {
+  width: 55%;
+}
 
-  .simons {
-    width: 60%;
-  }
+.simons {
+  width: 60%;
+}
 
-  .hm {
-    width: 30%;
-  }
+.hm {
+  width: 30%;
+}
 
-  .zara {
-    width: 40%;
-  }
+.zara {
+  width: 40%;
+}
 
 
 @media only screen and (min-width: 25em) {
-
-  .easy {
-    width: 70%;
-  }
 
   .relative {
     position: relative;
@@ -160,10 +151,6 @@ footer {
 }
 
 @media only screen and (min-width: 38em) {
-
-  .easy {
-    width: 70%;
-  }
 
   .relative {
     position: relative;
